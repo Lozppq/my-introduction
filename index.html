@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Introduction</title>
+    <style>
+        body{
+            background-color: blanchedalmond;
+        }
+        #out{
+            width: 70%;
+            height: 1200px;
+            border: 2px solid black;
+            margin: 0 auto;
+        }
+        #head{
+            width: 99%;
+            border: 2px solid black;
+            margin: 2px auto;
+            height: 304px;
+        }
+        #head img{
+            width: 99.6%;
+            height: 300px;
+            margin: 2px;
+        }
+        #introduction{
+            width: 99%;
+            border: 2px solid black;
+            margin: 2px auto;
+            height: 350px;
+        }
+        #myintro{
+            width: 80%;
+            height: 120px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+        #introduction table{
+            width: 100%;
+            height: 200px;
+        }
+        #introduction table td{
+            width: 25%;
+            height: 190px;
+        }
+        #introduction img{
+            width: 90%;
+            height: 188px;
+
+        }
+        #experience{
+            width: 99%;
+            border: 2px solid black;
+            margin: 2px auto;
+            height: 260px;
+        }
+        #experience1{
+            width: 80%;
+            height: 200px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+        #future{
+            width: 99%;
+            border: 2px solid black;
+            margin: 2px auto;
+            height: 260px;
+        }
+        #future1{
+            width: 80%;
+            height: 180px;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+        #future2{
+            float: right;
+            width: 170px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="out">
+        <div id="head">
+            <img src="img/11111.jpg">
+        </div>
+        <div id="introduction">
+            <div id="myintro"></div>
+            <table>
+                <tr>
+                    <td>
+                        <img src="img/food1.jpg">
+                    </td>
+                    <td id="intro1"></td>
+                    <td>
+                        <img src="img/food2.jpg">
+                    </td>
+                    <td id="intro2"></td>
+                </tr>
+            </table>
+
+        </div>
+        <div id="experience">
+            <div id="experience1"></div>
+        </div>
+        <div id="future">
+            <div id="future1"></div>
+            <div id="future2"></div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var aa = document.getElementById('myintro'), bb = document.getElementById('intro1'), cc = document.getElementById('intro2');
+        var dd = document.getElementById('experience1'), ee = document.getElementById('future1'), ff = document.getElementById('future2');
+        aa.innerText = "我是一个比较随和的人，平常喜欢打乒乓球，跑步，还有打王者，对于美食也很热衷。于我而言，每天过着早八的生活，是苦不堪言的，无时无刻不在想着什么时候才能结束早八的生活" +
+            "（每天早上必定起不来）。"+"\n" +
+            "即使被早八折磨得惨兮兮的，但是热爱生活是我的必备，闲时之余和朋友一起去打球，或者晚上回来宿舍一起开黑，在抖音上刷到好吃的立马run去吃。每一天都元气满满！";
+        bb.innerText = "第一次在抖音上刷到的，美德园素食自助，抖音上团购才23一位（千万不要去店里买票，店里要39一位），里面有很多素食，还有甜点，水果，串串，饮料果汁，还有麻辣烫。" +
+            "他还有挺多家分店的，学校附近就有一家分店，虽然没有总店的菜品丰富，但是也很不错";
+        cc.innerText = "这家店是盛江山烤肉自助，第一次去是舍友带去的，非常不错，里面的各种自助的小吃，还有自主的海鲜，最喜欢的当然是他那里的甜点了，还有在那里的师傅烤的肉" +
+            "，很nice";
+        dd.innerText = "成就：23届大学生算法大赛三等奖， 第十四届蓝桥杯程序设计大赛大学A组省赛二等奖" + "\n\n" +
+            "技能：在大学的学习过程，学会了c，c++,python，html5，js，css等语言工具，并且在准备数学建模的过程中，学习了使用matlab，懂得了一些建模的知识" + "\n\n" +
+            "专业相关经验：在学习的过程中，了解了如何去做一些小项目，自己独立完成了一个基于Python的简单学生成绩系统。利用html5，css，js制作了一个拥有搜索功能的物品平台，在这个过程中，学会了如何在github，gittee上面搭载" +
+            "自己的网页" + "\n\n" +
+            "自我评价：我觉得自己在做项目方面欠缺经验，不懂得如何有效率的去做项目，为项目做规划，希望在上栋哥的课时，能补足这个缺点";
+        ee.innerText = "未来三年的发展设想：考研，考研，考研" + "\n\n" +
+            "理由：在当下的时代发展背景下，如果一个普通大学生选择在本科出去工作，是很难在社会上混得很好的，而且一旦出去工作就等于是失去了大部分提高自己能力的机会，工作的时候不可能有太多时间去提高自己，" +
+            "特别是到时候还要成家，就更没有时间去提升自己了，只能是被研究生的浪潮淹没。虽然考研可能会有一定的难度，但是相比较于在社会上摸爬滚打，这还是比较容易实现的，再说了，想要成功做好一件事肯定会有困难，我们只要" +
+            "撑过最难的时期，美好的生活就在向我们招手！";
+        ff.innerText = "学号：102101415" + "\n" + "姓名：卢泽强";
+    </script>
+</body>
+</html>
